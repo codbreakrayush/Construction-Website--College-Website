@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+
+:root{
+    --background: url('../images/services.jpg');
+    --background-cons:url('../images/cons-page.jpg');
+    --text-h: rgb(209, 66, 22);
+    --grey: rgb(247, 243, 243);
+    --list-sec: rgb(243, 238, 238);
+    --border: rgb(228, 224, 224);
+    --dark-grey:rgb(46, 45, 45);
+    --det-sec: white;
+    --font-1:'Oswald', sans-serif;
+    --font-2:'Uchen', serif;
+}
+
+*{
+    font-family: var(--font-2);
+}
+
+.main{
+    background-color: var(--grey);
+    margin: 0;
+}
+
+.sub{
+    max-width: 70vw;
+    padding: 2vh;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.list-sec{
+    flex-basis: 30%;
+    background-color: var(--list-sec);
+    margin-right: 30px;
+}
+
+.list-sec li{
+    padding:5px 0;
+    border-bottom: 2px solid var(--border);
+    list-style-type:square;
+}
+
+.list-sec li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+    font-weight: bolder;
+    font-size: 13px;
+    font-family: var(--font-1);
+    transition: 0.2s;
+}
+
+.list-sec li a:hover{
+    color:var(--text-h);
+    font-size: 15px;
+}
+
+.det-sec{
+    flex-basis: 70%;
+    background-color: var(--det-sec);
+    display: flex;
+    flex-direction: column;
+}
+
+#det-head, #img , #details, #btn{
+    margin:20px
+}
+#det-head{
+    align-self: center;
+    text-transform: uppercase;
+    font-family: var(--font-1);
+    font-size:25px;
+}
+
+
+#img{
+    align-self: center;    
+}
+
+#img img{
+    max-width:550px;
+    max-height:320px;
+}
+
+#details{
+    margin:20px;
+    font-size: 16px;
+    font-weight:lighter;
+}
+
+#btn{
+    align-self: center;
+    width:200px;
+    height: 40px;
+    font-size:16px;
+    font-weight: bold;
+    background-color: var(--text-h);
+    color:white;
+    border: none;
+}
+
+#btn:hover{
+    border: 1px solid var(--text-h);
+    cursor: pointer;
+    background-color: var(--det-sec);
+    color: var(--text-h);
+}
+
+@media screen and (max-width:995px) {
+    .sub{
+        max-width:fit-content;
+    }
+}
+
+
+
