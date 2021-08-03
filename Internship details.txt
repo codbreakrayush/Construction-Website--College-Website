@@ -1,0 +1,23 @@
+I. CRICHERO-
+
+I have completed following tasks in this project:
+
+1. Contact Form
+2. Players/Teams page
+3. Added navbar to both the pages and also made it responsive
+4. My Matches section on home page
+5. My teams section on home page
+
+link:-https://github.com/codbreakrayush/crichero
+
+II. Construction Website:-
+
+I have completed the services tab in this project.
+
+link:-https://github.com/codbreakrayush/Construction-Website--College-Website/tree/main/Services
+
+III. College Website:-
+
+I have completed the facalities tab in this project.
+
+link:-https://github.com/codbreakrayush/Construction-Website--College-Website/tree/main/Facalities
